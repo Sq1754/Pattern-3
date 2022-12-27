@@ -4,6 +4,12 @@ public class Q3 {
 	public static void main(String[]args) {
 		
 		// Q3 : print Half pyramid
+		/*
+		    *
+		    **
+		    ***
+		    ****
+		*/
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Give number of rows:");
@@ -18,6 +24,12 @@ public class Q3 {
 		
 		
 		// same thing in reverse  inverted pyramid
+		/*
+	            ****
+		    ***
+		    **
+		    *
+		*/
 		
 		System.out.println("\nInnverted pyramid:/n");
 		
@@ -31,6 +43,12 @@ public class Q3 {
 		
 		
 		// pyramid for numbers:
+		/*
+		   1
+		   12
+		   123
+		   1234
+		*/
 		
 		System.out.println("\nPyramid for numbers:\n");
 		for(int i=1;i<=rows;i++) {
@@ -42,7 +60,12 @@ public class Q3 {
 		
 		
 		// invertedd pyramid of numbers;
-		
+		/*
+		  1234
+		  123
+		  12
+		  1
+		*/
 	System.out.println("\nInnverted pyramid for numbers:/n");
 		
 		for(int i=rows;i>=1;i--) {
